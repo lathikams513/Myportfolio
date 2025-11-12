@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lathika - AIDS Portfolio</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <canvas id="canvas3d"></canvas>
+
+    <div class="left-nav">
+        <div>
+            <div class="logo-section">
+                <div class="logo">LATHIKA</div>
+                <div class="logo-subtitle">AIDS Student</div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="social-links">
+            <a href="#" title="LinkedIn">in</a>
+            <a href="#" title="GitHub">git</a>
+            <a href="#" title="Twitter">tw</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <section id="home" class="section">
+            <div class="slideshow-container">
+                <div class="slide active" style="background-image: linear-gradient(135deg, #1e1e1e, #2d2d2d)"></div>
+                <div class="slide" style="background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364)"></div>
+                <div class="slide" style="background-image: linear-gradient(135deg, #434343, #000000)"></div>
+            </div>
+
+            <div class="home-content">
+                <div class="greeting">Welcome to my Portfolio</div>
+                <h1 class="main-title">I'm Lathika<br/>AI & Data Science Student</h1>
+                <p class="description">
+                    Passionate about Artificial Intelligence, Machine Learning, and creating innovative solutions 
+                    that bridge technology and human needs. Currently pursuing my journey in the fascinating 
+                    world of AI and Data Science.
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                        View My Work
+                    </button>
+                    <button class="btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                        Get In Touch
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div style="width: 100%;">
+                <div class="section-header">
+                    <div class="section-number">01 — ABOUT ME</div>
+                    <h2 class="section-title">Who I Am</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image">👩‍💻</div>
+                    <div>
+                        <p class="about-text">
+                            I'm a dedicated third-year student specializing in Artificial Intelligence and Data Science. 
+                            My passion lies in leveraging cutting-edge technologies to solve real-world problems and 
+                            create meaningful impact through intelligent systems.
+                        </p>
+                        <p class="about-text">
+                            With a basic foundation in machine learning, full stack , and data analytics, I'm constantly 
+                            exploring new frontiers in AI. I believe in the power of continuous learning and staying ahead 
+                            in this rapidly evolving field.
+                        </p>
+
+                        <div class="skills-container">
+                            <div class="skill-card">
+                                <div class="skill-icon">🐍</div>
+                                <div class="skill-name">java</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon">🤖</div>
+                                <div class="skill-name">AI/ML</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon">📊</div>
+                                <div class="skill-name">Data analytics</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon">💻</div>
+                                <div class="skill-name">Full stack</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3rd</div>
+                        <div class="stat-label">Year AIDS Student</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Technologies Learned</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div style="width: 100%;">
+                <div class="section-header">
+                    <div class="section-number">02 — MY WORK</div>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+
+                <div class="projects-container">
+                    <div class="project-card">
+                        <div class="project-image">🤖</div>
+                        <div class="project-content">
+                            <h3 class="project-title"> BigMart Sales Analysis</h3>
+                            <p class="project-desc">
+                                Performed exploratory data analysis to identify key sales drivers and forecast demand using regression models.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Scikit-learn</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">📈</div>
+                        <div class="project-content">
+                            <h3 class="project-title">Predictive Analytics Dashboard</h3>
+                            <p class="project-desc">
+                                Comprehensive data visualization and forecasting platform using machine learning algorithms 
+                                to predict trends and provide actionable insights.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Scikit-learn</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">🖼️</div>
+                        <div class="project-content">
+                            <h3 class="project-title"> Diet Plan and Daily Food Suggestions</h3>
+                            <p class="project-desc">
+                                 Created a health-focused recommendation system suggesting diet plans based on user input and nutritional data
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">CNN</span>
+                                <span class="tag">OpenCV</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">💡</div>
+                        <div class="project-content">
+                            <h3 class="project-title">Tutor Talk</h3>
+                            <p class="project-desc">
+                                Developed an online tutoring platform to connect students and mentors with live chat and course management
+ features.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">java</span>
+                                <span class="tag">api</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="contact-container">
+                <div class="section-header">
+                    <div class="section-number">03 — GET IN TOUCH</div>
+                    <h2 class="section-title">Let's Connect</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>lathika@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 XXXXX XXXXX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Tiruppur, Tamil Nadu</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
